@@ -3,6 +3,9 @@ import './App.css';
 import Navbar from './Shared/Navbar';
 import { Route, Routes } from 'react-router-dom';
 import Home from './Home/Home';
+import "swiper/css";
+import "swiper/css/effect-coverflow";
+import "swiper/css/pagination";
 
 
 function App() {
