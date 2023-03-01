@@ -13,7 +13,8 @@ import offer3 from './Images/offer3.jpg'
 
 const Offers = () => {
     return (
-        <div className='mx-[10%] w-[full] border-r-[25px] h-[500px]'>
+        <div className='mx-[10%] mt-20 '>
+            <h1 className='text-5xl font-bold text-center mb-12' data-aos="fade-up"   data-aos-duration="3000">OFFERS</h1>
               <Swiper
         slidesPerView={1}
         spaceBetween={30}
@@ -29,18 +30,21 @@ const Offers = () => {
         modules={[Pagination,Autoplay]}
         className="mySwiper"
       >
-        <SwiperSlide>
-            <img className='' src={offer1}/>
+     <div >
+     <SwiperSlide>
+            <img className='rounded-2xl shadow-2xl h-[500px] w-[100%] ' data-aos="zoom-in"   data-aos-duration="3000" src={offer1}/>
             </SwiperSlide>
         <SwiperSlide>
-            <img className='' src={offer2}/>
+            <img className='rounded-2xl  h-[500px] w-[100%]' data-aos="zoom-in"   data-aos-duration="3000" src={offer2}/>
 
         </SwiperSlide>
         <SwiperSlide>
-            <img className='' src={offer3}/>
+            <img className='rounded-2xl  h-[500px] w-[100%]' data-aos="zoom-in"   data-aos-duration="3000" src={offer3}/>
         </SwiperSlide>
+     </div>
     
       </Swiper>
+      <h1 className='text-5xl text-center font-bold mt-20' data-aos="fade-up"   data-aos-duration="3000">Customize in your Rugs</h1>
         </div>
     );
 };

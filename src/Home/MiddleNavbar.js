@@ -1,4 +1,8 @@
 import React from "react";
+import {BsTwitter} from 'react-icons/bs'
+import {FaFacebook} from 'react-icons/fa'
+import {BsLinkedin} from 'react-icons/bs'
+import {BsSkype} from 'react-icons/bs'
 
 const MiddleNavbar = () => {
   return (
@@ -8,11 +12,11 @@ const MiddleNavbar = () => {
         <button>0158725555552</button>
       </div>
       <div className="flex gap-x-2">
-        <button>f</button>
-        <button>in</button>
-        <button>t</button>
-        <button>li</button>
-        <button>g</button>
+        <button><BsTwitter/></button>
+        <button><FaFacebook/></button>
+        <button><BsLinkedin/></button>
+        <button><BsSkype/></button>
+       
       </div>
     </div>
   );
