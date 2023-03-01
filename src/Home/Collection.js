@@ -5,7 +5,7 @@ import pho from './Images/Collwct.jpg'
 const Collection = () => {
     return (
         <div className='mx-[8%] mt-20' data-aos="fade-up"   data-aos-duration="3000">
-              <p className='text-center text-4xl font-bold mb-10' >Our Collection</p>  
+              <p className='text-center text-5xl font-bold mb-10' >Our Collection</p>  
                  <Swiper
         slidesPerView={4}
         spaceBetween={30}

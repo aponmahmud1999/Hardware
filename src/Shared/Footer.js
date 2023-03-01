@@ -1,5 +1,5 @@
 import React from 'react';
-import Map from '../Map';
+import Map from '../Home/Map';
 import {BsTwitter} from 'react-icons/bs'
 import {FaFacebook} from 'react-icons/fa'
 import {BsLinkedin} from 'react-icons/bs'
@@ -8,7 +8,7 @@ import {BsSkype} from 'react-icons/bs'
 
 const Footer = () => {
     return (
-        <div>
+        <div className='mt-20'>
             <div className='bg-[#000080] text-white flex justify-center gap-x-10 pt-10 pb-10'>
                 <div>
                     <h1 className='text-4xl font-bold'>TOOLS World</h1>

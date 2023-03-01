@@ -9,11 +9,11 @@ const DeliveryPartner = () => {
         <div >
             
             <div className="divider mt-10"></div> 
-            <div className='flex justify-between gap-x-10 mx-20 mt-20'>
+            <div className='grid grid-cols-4 gap-x-10 mx-40 mt-20'>
                 <div><img className='w-[45%]' data-aos="zoom-in"   data-aos-duration="3000" src={logo1}/></div>
                 <div><img className='w-[45%]' data-aos="zoom-in"   data-aos-duration="3000" src={logo2}/></div>
-                <div><img className='w-[100%]' data-aos="zoom-in"   data-aos-duration="3000" src={logo3}/></div>
-                <div><img className='w-[45%]' data-aos="zoom-in"   data-aos-duration="3000" src={logo4}/></div>
+                <div><img className='w-[45%] h-[65%]' data-aos="zoom-in"   data-aos-duration="3000" src={logo3}/></div>
+                <div><img className='w-[45%] h-[65%]' data-aos="zoom-in"   data-aos-duration="3000" src={logo4}/></div>
             </div>
         </div>
     );

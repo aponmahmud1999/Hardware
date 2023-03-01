@@ -1,4 +1,5 @@
 import React from 'react';
+import img from './37632.jpg'
 
 const Product = () => {
     return (
@@ -8,140 +9,247 @@ const Product = () => {
             <p className='text-center text-4xl font-bold'>Our Product</p>
 
            </div>
-           <div className='grid grid-cols-4 gap-10 mt-10'>
+           <div className='grid grid-cols-4 gap-10 mt-10 mx-20'>
            <div className="card  bg-base-100 shadow-xl" data-aos="fade-right">
-                <figure><img src="https://placeimg.com/400/225/arch" alt="Shoes" /></figure>
+                <img className='h-[50%]' src={img} alt="Shoes" />
                 <div className="card-body">
                     <h2 className="card-title">
-                      Product Name
+                      Scrue
                         
                     </h2>
-                    <p>Product Details Product Details Product Details Product Details Product Details </p>
+                    <p >This is the product of the company that you can buy </p>
+                    <p className='-mt-7'>120$</p>
+                    <div className='flex gap-2'>
+                        <button class="btn bg-blue-900 border-t-indigo-500 px-5">Buy</button>
+                    <button class="btn bg-blue-900 border-t-indigo-500 px-5">Cart</button>   </div> 
                   
                 </div>
-            </div>
-           <div className="card  bg-base-100 shadow-xl" data-aos="fade-right">
-                <figure><img src="https://placeimg.com/400/225/arch" alt="Shoes" /></figure>
+           
+           
+                </div>
+
+                <div className="card  bg-base-100 shadow-xl" data-aos="fade-right">
+                <img className='h-[50%]' src={img} alt="Shoes" />
                 <div className="card-body">
                     <h2 className="card-title">
-                      Product Name
+                      Scrue
                         
                     </h2>
-                    <p>Product Details Product Details Product Details Product Details Product Details </p>
+                    <p >This is the product of the company that you can buy </p>
+                    <p className='-mt-7'>120$</p>
+                    <div className='flex gap-2'>
+                        <button class="btn bg-blue-900 border-t-indigo-500 px-5">Buy</button>
+                    <button class="btn bg-blue-900 border-t-indigo-500 px-5">Cart</button>   </div> 
                   
                 </div>
-            </div>
-           <div className="card  bg-base-100 shadow-xl" data-aos="fade-left">
-                <figure><img src="https://placeimg.com/400/225/arch" alt="Shoes" /></figure>
+           
+           
+                </div>
+
+                <div className="card  bg-base-100 shadow-xl" data-aos="fade-right">
+                <img className='h-[50%]' src={img} alt="Shoes" />
                 <div className="card-body">
                     <h2 className="card-title">
-                      Product Name
+                      Scrue
                         
                     </h2>
-                    <p>Product Details Product Details Product Details Product Details Product Details </p>
+                    <p >This is the product of the company that you can buy </p>
+                    <p className='-mt-7'>120$</p>
+                    <div className='flex gap-2'>
+                        <button class="btn bg-blue-900 border-t-indigo-500 px-5">Buy</button>
+                    <button class="btn bg-blue-900 border-t-indigo-500 px-5">Cart</button>   </div> 
                   
                 </div>
-            </div>
-           <div className="card  bg-base-100 shadow-xl" data-aos="fade-left">
-                <figure><img src="https://placeimg.com/400/225/arch" alt="Shoes" /></figure>
+           
+           
+                </div>
+
+                <div className="card  bg-base-100 shadow-xl" data-aos="fade-right">
+                <img className='h-[50%]' src={img} alt="Shoes" />
                 <div className="card-body">
                     <h2 className="card-title">
-                      Product Name
+                      Scrue
                         
                     </h2>
-                    <p>Product Details Product Details Product Details Product Details Product Details </p>
+                    <p >This is the product of the company that you can buy </p>
+                    <p className='-mt-7'>120$</p>
+                    <div className='flex gap-2'>
+                        <button class="btn bg-blue-900 border-t-indigo-500 px-5">Buy</button>
+                    <button class="btn bg-blue-900 border-t-indigo-500 px-5">Cart</button>   </div> 
                   
                 </div>
-            </div>
-           <div className="card  bg-base-100 shadow-xl" data-aos="fade-right">
-                <figure><img src="https://placeimg.com/400/225/arch" alt="Shoes" /></figure>
+           
+           
+                </div>
+
+
+                <div className="card  bg-base-100 shadow-xl" data-aos="fade-right">
+                <img className='h-[50%]' src={img} alt="Shoes" />
                 <div className="card-body">
                     <h2 className="card-title">
-                      Product Name
+                      Scrue
                         
                     </h2>
-                    <p>Product Details Product Details Product Details Product Details Product Details </p>
+                    <p >This is the product of the company that you can buy </p>
+                    <p className='-mt-7'>120$</p>
+                    <div className='flex gap-2'>
+                        <button class="btn bg-blue-900 border-t-indigo-500 px-5">Buy</button>
+                    <button class="btn bg-blue-900 border-t-indigo-500 px-5">Cart</button>   </div> 
                   
                 </div>
-            </div>
-           <div className="card  bg-base-100 shadow-xl" data-aos="fade-right">
-                <figure><img src="https://placeimg.com/400/225/arch" alt="Shoes" /></figure>
+           
+           
+                </div>
+
+
+                <div className="card  bg-base-100 shadow-xl" data-aos="fade-right">
+                <img className='h-[50%]' src={img} alt="Shoes" />
                 <div className="card-body">
                     <h2 className="card-title">
-                      Product Name
+                      Scrue
                         
                     </h2>
-                    <p>Product Details Product Details Product Details Product Details Product Details </p>
+                    <p >This is the product of the company that you can buy </p>
+                    <p className='-mt-7'>120$</p>
+                    <div className='flex gap-2'>
+                        <button class="btn bg-blue-900 border-t-indigo-500 px-5">Buy</button>
+                    <button class="btn bg-blue-900 border-t-indigo-500 px-5">Cart</button>   </div> 
                   
                 </div>
-            </div>
-           <div className="card  bg-base-100 shadow-xl" data-aos="fade-left">
-                <figure><img src="https://placeimg.com/400/225/arch" alt="Shoes" /></figure>
+           
+           
+                </div>
+
+                <div className="card  bg-base-100 shadow-xl" data-aos="fade-right">
+                <img className='h-[50%]' src={img} alt="Shoes" />
                 <div className="card-body">
                     <h2 className="card-title">
-                      Product Name
+                      Scrue
                         
                     </h2>
-                    <p>Product Details Product Details Product Details Product Details Product Details </p>
+                    <p >This is the product of the company that you can buy </p>
+                    <p className='-mt-7'>120$</p>
+                    <div className='flex gap-2'>
+                        <button class="btn bg-blue-900 border-t-indigo-500 px-5">Buy</button>
+                    <button class="btn bg-blue-900 border-t-indigo-500 px-5">Cart</button>   </div> 
                   
                 </div>
-            </div>
-           <div className="card  bg-base-100 shadow-xl" data-aos="fade-left">
-                <figure><img src="https://placeimg.com/400/225/arch" alt="Shoes" /></figure>
+           
+           
+                </div>
+
+                <div className="card  bg-base-100 shadow-xl" data-aos="fade-right">
+                <img className='h-[50%]' src={img} alt="Shoes" />
                 <div className="card-body">
                     <h2 className="card-title">
-                      Product Name
+                      Scrue
                         
                     </h2>
-                    <p>Product Details Product Details Product Details Product Details Product Details </p>
+                    <p >This is the product of the company that you can buy </p>
+                    <p className='-mt-7'>120$</p>
+                    <div className='flex gap-2'>
+                        <button class="btn bg-blue-900 border-t-indigo-500 px-5">Buy</button>
+                    <button class="btn bg-blue-900 border-t-indigo-500 px-5">Cart</button>   </div> 
                   
                 </div>
-            </div>
-           <div className="card  bg-base-100 shadow-xl">
-                <figure><img src="https://placeimg.com/400/225/arch" alt="Shoes" /></figure>
+           
+           
+                </div>
+
+                <div className="card  bg-base-100 shadow-xl" data-aos="fade-right">
+                <img className='h-[50%]' src={img} alt="Shoes" />
                 <div className="card-body">
                     <h2 className="card-title">
-                      Product Name
+                      Scrue
                         
                     </h2>
-                    <p>Product Details Product Details Product Details Product Details Product Details </p>
+                    <p >This is the product of the company that you can buy </p>
+                    <p className='-mt-7'>120$</p>
+                    <div className='flex gap-2'>
+                        <button class="btn bg-blue-900 border-t-indigo-500 px-5">Buy</button>
+                    <button class="btn bg-blue-900 border-t-indigo-500 px-5">Cart</button>   </div> 
                   
                 </div>
-            </div>
-           <div className="card  bg-base-100 shadow-xl">
-                <figure><img src="https://placeimg.com/400/225/arch" alt="Shoes" /></figure>
+           
+           
+                </div>
+
+                <div className="card  bg-base-100 shadow-xl" data-aos="fade-right">
+                <img className='h-[50%]' src={img} alt="Shoes" />
                 <div className="card-body">
                     <h2 className="card-title">
-                      Product Name
+                      Scrue
                         
                     </h2>
-                    <p>Product Details Product Details Product Details Product Details Product Details </p>
+                    <p >This is the product of the company that you can buy </p>
+                    <p className='-mt-7'>120$</p>
+                    <div className='flex gap-2'>
+                        <button class="btn bg-blue-900 border-t-indigo-500 px-5">Buy</button>
+                    <button class="btn bg-blue-900 border-t-indigo-500 px-5">Cart</button>   </div> 
                   
                 </div>
-            </div>
-           <div className="card  bg-base-100 shadow-xl">
-                <figure><img src="https://placeimg.com/400/225/arch" alt="Shoes" /></figure>
+           
+           
+                </div>
+
+
+                <div className="card  bg-base-100 shadow-xl" data-aos="fade-right">
+                <img className='h-[50%]' src={img} alt="Shoes" />
                 <div className="card-body">
                     <h2 className="card-title">
-                      Product Name
+                      Scrue
                         
                     </h2>
-                    <p>Product Details Product Details Product Details Product Details Product Details </p>
+                    <p >This is the product of the company that you can buy </p>
+                    <p className='-mt-7'>120$</p>
+                    <div className='flex gap-2'>
+                        <button class="btn bg-blue-900 border-t-indigo-500 px-5">Buy</button>
+                    <button class="btn bg-blue-900 border-t-indigo-500 px-5">Cart</button>   </div> 
                   
                 </div>
-            </div>
-           <div className="card  bg-base-100 shadow-xl">
-                <figure><img src="https://placeimg.com/400/225/arch" alt="Shoes" /></figure>
+           
+           
+                </div>
+
+
+                <div className="card  bg-base-100 shadow-xl" data-aos="fade-right">
+                <img className='h-[50%]' src={img} alt="Shoes" />
                 <div className="card-body">
                     <h2 className="card-title">
-                      Product Name
+                      Scrue
                         
                     </h2>
-                    <p>Product Details Product Details Product Details Product Details Product Details </p>
+                    <p >This is the product of the company that you can buy </p>
+                    <p className='-mt-7'>120$</p>
+                    <div className='flex gap-2'>
+                        <button class="btn bg-blue-900 border-t-indigo-500 px-5">Buy</button>
+                    <button class="btn bg-blue-900 border-t-indigo-500 px-5">Cart</button>   </div> 
                   
                 </div>
-            </div>
-           </div>
+           
+           
+                </div>
+
+
+                <div className="card  bg-base-100 shadow-xl" data-aos="fade-right">
+                <img className='h-[50%]' src={img} alt="Shoes" />
+                <div className="card-body">
+                    <h2 className="card-title">
+                      Scrue
+                        
+                    </h2>
+                    <p >This is the product of the company that you can buy </p>
+                    <p className='-mt-7'>120$</p>
+                    <div className='flex gap-2'>
+                        <button class="btn bg-blue-900 border-t-indigo-500 px-5">Buy</button>
+                    <button class="btn bg-blue-900 border-t-indigo-500 px-5">Cart</button>   </div> 
+                  
+                </div>
+           
+           
+                </div>
+                
+                </div>
             
         </div>
     );

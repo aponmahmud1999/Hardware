@@ -1,6 +1,6 @@
 import React from 'react';
 import DeliveryPartner from '../Home/DeliveryPartner';
-import Map from '../Map';
+import Map from '../Home/Map';
 
 const Form = () => {
     return (

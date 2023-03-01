@@ -14,7 +14,7 @@ import offer3 from './Images/offer3.jpg'
 const Offers = () => {
     return (
         <div className='mx-[10%] mt-20 '>
-            <h1 className='text-5xl font-bold text-center mb-12' data-aos="fade-up"   data-aos-duration="3000">OFFERS</h1>
+            <h1 className='text-5xl font-bold text-center mb-12' data-aos="fade-up"   data-aos-duration="3000">Our Offers</h1>
               <Swiper
         slidesPerView={1}
         spaceBetween={30}

@@ -59,7 +59,7 @@ const Navbar = () => {
         <a className="btn btn-ghost normal-case text-xl">daisyUI</a>
       </div>
       <div className="navbar-end hidden lg:flex">
-        <ul className="menu menu-horizontal px-1">
+        <ul className="menu menu-horizontal px-4 gap-x-5">
           <li>
             <Link to="/">Home</Link>
           </li>
@@ -67,11 +67,12 @@ const Navbar = () => {
             <Link to="/about">About</Link>
           </li>
           <li>
-            <Link to="/contact">Contact</Link>
-          </li>
           <li>
             <Link to="/product">Product</Link>
           </li>
+            <Link to="/contact">Contact</Link>
+          </li>
+          
         </ul>
       </div>
     </div>
