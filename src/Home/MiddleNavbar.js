@@ -6,7 +6,7 @@ import {BsSkype} from 'react-icons/bs'
 
 const MiddleNavbar = () => {
   return (
-    <div className="bg-[#040440] md:flex sm:grid sm:grid-cols-1  md:justify-between text-white px-[10%]">
+    <div className="bg-[#040440] md:flex sm:grid sm:grid-cols-1 pb-2 md:pb-0 md:justify-between text-white px-[10%]">
       <div className="md:flex sm:grid sm:grid-cols-1  gap-x-2">
         <button>emailaddress@example.com</button>
         <button>0158725555552</button>
