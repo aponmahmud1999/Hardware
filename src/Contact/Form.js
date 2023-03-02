@@ -5,13 +5,13 @@ import Map from '../Home/Map';
 const Form = () => {
     return (
        <div>
-         <div className='mt-20 flex justify-center gap-10'>
-            <div data-aos="fade-right">
+         <div className='mt-10 md:mt-20 sm:grid sm:grid-cols-1 md:flex md:justify-center gap-10'>
+            <div className='md:mx-0 mx-3' data-aos="fade-right">
             <Map/>
             </div>
             <div>
             <form >
-        <div className='grid grid-cols-2 gap-4 px-5 lg:px-0 ' data-aos="fade-left">
+        <div className='grid grid-cols-2 md:mt-0 mt-5 gap-4  px-5 lg:px-0 ' data-aos="fade-left">
             <input type="text" name="user_name" placeholder="Name" className="input input-bordered w-full lg:w-60    " />
             <input type="email" name="email" placeholder="Email" className="input input-bordered  w-full lg:w-60" />
             <input type="text" name="message" placeholder="Subject" className="input input-bordered mt-5 w-full lg:w-[31rem] col-span-2" />
